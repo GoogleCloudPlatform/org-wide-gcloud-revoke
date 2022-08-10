@@ -1,5 +1,5 @@
 /**
- * Remove access to the Google Cloud SDK for all users in an organization
+ * Remove access to the Google Cloud CLI for all users in an organization
  * @see https://developers.google.com/admin-sdk/directory/reference/rest/v1/tokens
  * @see https://developers.google.com/admin-sdk/directory/reference/rest/v1/users
  * @see https://developers.google.com/apps-script/guides/services/advanced#enabling_advanced_services
