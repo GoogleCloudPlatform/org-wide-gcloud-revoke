@@ -20,7 +20,7 @@ jobs:
   lint:
     runs-on: ubuntu-20.04
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - name: Super-Linter
         uses: github/super-linter@v4.9.6
         env:
