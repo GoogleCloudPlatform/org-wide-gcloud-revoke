@@ -1,6 +1,6 @@
 # Revoke gcloud authorization for all users in your organization
 
-This code sample run in Google Apps Script revokes authorization for the gcloud CLI from all users in your Google Workspace or Cloud Identity organization. You might want to revoke gcloud cli access if you suspect an attacker has compromised your environment and copied OAuth access tokens.
+This code sample run in Google Appscript revokes authorization for the gcloud CLI from all users in your Google Workspace or Cloud Identity organization. You might want to revoke gcloud cli access if you suspect an attacker has compromised your environment and copied OAuth access tokens.
 
 ## Available Scripts
 
