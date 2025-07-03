@@ -31,22 +31,22 @@ lint libraries in [Super-Linter](https://github.com/super-linter/super-linter)
 with the settings configured in
 [.github/linters/super-linter.env](.github/linters/super-linter.env)
 
-1. To validate that your code passes these checks, use the following methods
-   depending on your environment:
+1.  To validate that your code passes these checks, use the following methods
+    depending on your environment:
 
-   1. **GitHub Actions**: GitHub Actions will automatically run all configured
-      checks when a PR is created or modified.
+    1.  **GitHub Actions**: GitHub Actions will automatically run all configured
+        checks when a PR is created or modified.
 
-   1. **Local**: You can manually trigger the tests in a docker container from
-      your local environment with the following command:
+    1.  **Local**: You can manually trigger the tests in a docker container from
+        your local environment with the following command:
 
-      ```bash
-          docker run --rm \
-          -e RUN_LOCAL=true \
-          --env-file ".github/linters/super-linter.env" \
-          -v "$(pwd)":/tmp/lint \
-          ghcr.io/super-linter/super-linter:v7.2.1
-      ```
+        ```bash
+            docker run --rm \
+            -e RUN_LOCAL=true \
+            --env-file ".github/linters/super-linter.env" \
+            -v "$(pwd)":/tmp/lint \
+            ghcr.io/super-linter/super-linter:latest
+        ```
 
 ## Community Guidelines
 
